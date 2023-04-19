@@ -90,8 +90,23 @@ public class JavaAssessment {
 			 super1.print(); super2.print();
 			 this.print();
 			 super.print();
-			 Interface1.print(); Interface2.print();
+			 Interface1.print(); Interface2.print(); - correct
 		 * */
-		
+       Interface1.print(); 
+       Interface2.print();
+       		
 	}
+   
 }
+
+			interface Interface1 {
+			    static void print() {
+			        System.out.print("Hello");
+			    }
+			}
+         
+         	interface Interface2 {
+			    static void print() {
+			        System.out.print("World!");
+			    }
+			}
