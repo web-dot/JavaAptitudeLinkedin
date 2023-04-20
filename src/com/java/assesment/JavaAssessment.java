@@ -94,6 +94,35 @@ public class JavaAssessment {
 		 * */
        Interface1.print(); 
        Interface2.print();
+       System.out.println();
+       
+       /**
+        * Q6. What does the following code print?
+        * */
+       	String str = "abcde";
+		str.trim();
+		str.toUpperCase();
+		str.substring(3, 4);
+		System.out.println(str);
+		
+		/**
+		 *  CD
+			CDE
+			D 
+			"abcde" - correct
+			
+			//explanation:
+			 * 
+			 * Although the String methods trim(), toUpperCase(), and substring() are called on the str variable, 
+			 * they do not modify the original string object str.Instead, they return new string objects that 
+			 * have been modified according to the method called. Since these returned strings are not assigned 
+			 * to any variable, they are immediately discarded. Therefore, the original string object str 
+			 * remains unchanged and still contains the string "abcde", 
+			 * which is what gets printed by the System.out.println() statement.
+			 * 
+			
+		 * */
+		
        		
 	}
    
